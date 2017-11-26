@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+
+	<Extension path="/MonoDevelop/Ide/Composition">
+		<Assembly file="MefTest.dll" />
+	</Extension>
+	<Extension path="/MonoDevelop/Ide/StartupHandlers">
+		<Class class="MefTest.MefTestStartupHandler" />
+	</Extension>
+</ExtensionModel>
